@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="current-info">
+        <div class="date-container">
+          <div class="time" id="time">12:30 <span id="am-pm">PM</span></div>
+          <div class="date" id="date">Monday, May 24 2022</div>
+        </div>
+
+        <div class="others" id="current-weather-items">
+          <div class="weather-item">
+            <div>Humidity:</div>
+            <div id="Humidity"></div>
+          </div>
+          <div class="weather-item">
+            <div>High:</div>
+            <div id="High"></div>
+          </div>
+          <div class="weather-item">
+            <div>Low:</div>
+            <div id="Low"></div>
+          </div>
+        </div>
+
+        <div class="place-container">
+          <div class="time-zone" id="time-zone">Virginia</div>
+          <div id="country" class="country">US</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="future-forecast">
+      <div class="today" id="current-temp">
+        <div class="day">Mon</div>
+        <div class="temp">Night -25.6&#176; C</div>
+        <div class="temp">Day - 35.6&#176; C</div>
+      </div>
+
+      <div class="weather-forecast" id="weather-forecast">
+        <div class="weather-forecast-item"></div>
+        <div class="day">Tue</div>
+        <div class="temp">Night -25.6&#176; C</div>
+        <div class="temp">Day - 35.6&#176; C</div>
+      </div>
+
+      <div class="weather-forecast" id="weather-forecast">
+        <div class="weather-forecast-item"></div>
+        <div class="day">Wed</div>
+        <div class="temp">Night -25.6&#176; C</div>
+        <div class="temp">Day - 35.6&#176; C</div>
+      </div>
+
+      <div class="weather-forecast" id="weather-forecast">
+        <div class="day">Thursday</div>
+        <div class="temp">Night -25.6&#176; C</div>
+        <div class="temp">Day - 35.6&#176; C</div>
+      </div>
+
+      <div class="weather-forecast" id="weather-forecast">
+        <div class="day">Friday</div>
+        <div class="temp">Night -25.6&#176; C</div>
+        <div class="temp">Day - 35.6&#176; C</div>
+      </div>
+
+      <div class="weather-forecast" id="weather-forecast">
+        <div class="day">Saturday</div>
+        <div class="temp">Night -25.6&#176; C</div>
+        <div class="temp">Day - 35.6&#176; C</div>
+      </div>
+    </div>
+
+    <div class="weather-forecast" id="weather-forecast">
+      <div class="day">Sunday</div>
+      <div class="temp">Night -25.6&#176; C</div>
+      <div class="temp">Day - 35.6&#176; C</div>
+      <script src="app.js"></script>
+    </div>
+  </body>
+</html>
